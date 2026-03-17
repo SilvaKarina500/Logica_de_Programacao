@@ -1,0 +1,42 @@
+programa
+{
+	
+	funcao inicio()
+	{
+
+	//Japão, Holanda, Autrália, Brasil, Portugal, Lituânia, Azerbaijão e Alemanha
+     
+	cadeia idiomas [8]
+	inteiro pais
+
+	idiomas[0] = "Japão"
+	idiomas[1] = "Holandês"
+	idiomas[2] = "inglês"
+	idiomas[3] = "Português"
+	idiomas[4] = "Portugal"
+	idiomas[5] = "Lituano"
+	idiomas[6] = "Azerbaijano"
+	idiomas[7] = "Alemão"
+
+	escreva("0 - Japão \n")
+	escreva("1 - Holanda \n")
+	escreva("2 - Autrália \n")
+	escreva("3 - Brasil \n")
+	escreva("4 - Portugal \n")
+	escreva("5 - Lituânia \n")
+	escreva("6 - Azerbaijão \n")
+	escreva("7 - Alemanha \n")
+	escreva("Escreva um pais:  ")
+	leia(pais)
+
+	se( pais<0 ou pais >7 ){
+		escreva("	Escolha um país válidos: " ) 
+	}
+
+	 senao{
+	 	escreva("Mostre o pias escolheido " , idiomas[pais])
+	 }
+
+	
+	}
+}
